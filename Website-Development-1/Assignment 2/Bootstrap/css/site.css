@@ -1,0 +1,32 @@
+#site-header{
+/*    background-image: url("http://poloconghaile.com/wp-content/uploads/2012/10/Saltee-Islands-Co.-Wexford-1.jpg");*/
+    background-image: url("../images/header.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-wide{
+    width: 100%;
+    cursor: pointer;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#google-map{
+    padding:1%;
+    height:30vh;
+    width:100%;
+    border: 0;
+}
+
+.main-gallery img{
+    margin:30%;
+}
+
+.card{
+    margin:5px;
+}

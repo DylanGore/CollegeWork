@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contact | Saltee Islands</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="site-title">Saltee Islands</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="visitors.html">Visitors</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main-content">
+            <h2>Contact</h2>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        If you need to get in touch you can do so by e-mailing <a href="mailto:example@example.com">example@example.com</a> or by sending us a message using the contact form on this page.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Send us a message</h3>
+                    <form action="form.html" method="get" id="contact">
+                        <input type="text" id="contactName" name="name" placeholder="Full Name" pattern="[A-Z][a-z]+( [A-Z][a-z]+)*" title="Please ensure that your name has been entered correctly!" autofocus required>
+                        <input type="text" id="contactEmail" name="email" placeholder="E-mail Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter a valid e-mail address" required>
+                        <input type="tel" id="contactPhone" name="phone" placeholder="Phone Number" pattern="[0-9]{10,11}" title="Please enter a valid telephone number!">
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-success btn-wide">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <iframe id="google-map" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJldg8CuqeQkgRPPfBfA3WM4U&key=AIzaSyDYexjR8hQ0w6Du-GRhfBSAeUgzZy-XuZk" allowfullscreen></iframe>
+            </div>
+        </section>
+        <footer>
+            <p id="copyright">&copy; 2017 Saltee Islands.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
